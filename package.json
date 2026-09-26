@@ -1,0 +1,1 @@
+{"name":"TicketGuzo-inspired-fullstack","private":true,"scripts":{"install-all":"npm --prefix client install && npm --prefix server install","dev":"concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\""},"devDependencies":{"concurrently":"^9.1.2"}}
