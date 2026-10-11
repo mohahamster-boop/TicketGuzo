@@ -1,9 +1,29 @@
-client/node_modules/
-server/node_modules/
-client/node_modules/
-server/node_modules/
-client/node_modules/
-server/node_modules/
+
+# Build files
+client/dist/
+server/dist/
+dist/
+build/
+
+# Dependencies
 node_modules/
 client/node_modules/
 server/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Backup files
+*.backup
+*.backup-*
+*.before-*
+
+# Other files
+coverage/
+.DS_Store
