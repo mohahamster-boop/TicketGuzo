@@ -4137,3 +4137,6 @@ html.light-theme option {
 
 /* Payment success text: pure white */
 .ticketConfirm .eyebrow, .ticketConfirm h1, .ticketConfirm h1 em { color: #ffffff !important; }
+
+/* Make the entire ticket heading white */
+.ticketConfirm h1, .ticketConfirm h1 *, .ticketConfirm .eyebrow { color: #ffffff !important; }
